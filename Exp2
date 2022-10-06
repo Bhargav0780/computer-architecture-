@@ -1,0 +1,15 @@
+2.Write an assembly language program for subtraction of two 8-bit data A7 A6 A5 A4 A3 A2 A1 A0 and B7 B6 B5 B4 B3 B2 B1 B0 using 8085 processor.
+
+LXI H,7501
+
+MOV A,M
+
+INX H
+
+SBB M
+
+INX H
+
+MOV M,A
+
+RST 1
