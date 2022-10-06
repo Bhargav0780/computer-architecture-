@@ -1,0 +1,13 @@
+3.Write an assembly language program for adding two 16-bit data using 8086 processor.
+
+LHLD 2050
+
+XCHG
+
+LHLD 2052
+
+DAD D
+
+SHLD 2055
+
+HLT
